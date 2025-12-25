@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.4.0.schema.json
+
+PackageIdentifier: Hundred.Hundred
+PackageVersion: 1.0.0
+MinimumOSVersion: 10.0.0.0
+InstallerType: exe
+Scope: user
+InstallerSwitches:
+  Silent: /S
+  SilentWithProgress: /S
+UpgradeBehavior: install
+Installers:
+- Architecture: x64
+  InstallerUrl: https://example.com/hundred/Hundred-1.0.0-x64.exe
+  InstallerSha256: 0000000000000000000000000000000000000000000000000000000000000000
+ManifestType: installer
+ManifestVersion: 1.4.0

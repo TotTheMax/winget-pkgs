@@ -1,0 +1,23 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.4.0.schema.json
+
+PackageIdentifier: Hundred.Hundred
+PackageVersion: 1.0.0
+PackageLocale: en-US
+Publisher: Hundred
+PublisherUrl: https://example.com/hundred
+PublisherSupportUrl: https://example.com/hundred/support
+PrivacyUrl: https://example.com/hundred/privacy
+PackageName: Hundred
+PackageUrl: https://example.com/hundred
+License: MIT
+LicenseUrl: https://example.com/hundred/license
+Copyright: Copyright (c) 2025 Hundred
+ShortDescription: Hundred - A sample application
+Description: Hundred is a sample application demonstrating the winget package manifest structure for the winget-pkgs repository.
+Moniker: hundred
+Tags:
+- example
+- sample
+- hundred
+ManifestType: defaultLocale
+ManifestVersion: 1.4.0
